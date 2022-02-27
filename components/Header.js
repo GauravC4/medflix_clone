@@ -2,7 +2,7 @@ import { Text, View, StyleSheet, Image } from "react-native";
 
 import Button from "../components/Button";
 
-const Header = () => {
+export default function Header() {
   return (
     <View style={styles.container}>
       <View style={{ flex: 1 }}>
@@ -21,7 +21,7 @@ const Header = () => {
       </View>
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -39,5 +39,3 @@ const styles = StyleSheet.create({
     marginLeft: 10,
   },
 });
-
-export default Header;
