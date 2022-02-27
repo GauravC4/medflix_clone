@@ -26,7 +26,6 @@ const styles = StyleSheet.create({
     color: "#429fce",
   },
   container: {
-    backgroundColor: "blue",
     marginHorizontal: 15,
     marginTop: "15%",
   },
