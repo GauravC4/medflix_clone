@@ -5,6 +5,7 @@ import IntroCard from "./components/IntroCard";
 import StoreLinkContainer from "./components/StoreLinkContainer";
 import Stakeholders from "./components/Stakeholders";
 import Section from "./components/Section";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -18,14 +19,9 @@ export default function App() {
           title="An experience like no other"
           footerText="Get on stage with panelists, answer polls, express with emojis - Experience a whole new way of learning medicine"
         >
-          <Image
-            style={styles.demoImg}
-            source={require("./assets/eye_demo.png")}
-            resizeMode="cover"
-          />
+          <Image source={require("./assets/eye_demo.png")} />
         </Section>
-        {/* // to be removed */}
-        <Stakeholders />
+        <Footer />
       </ScrollView>
     </View>
   );
@@ -36,8 +32,5 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#000",
     top: StatusBar.currentHeight,
-  },
-  demoImg: {
-    borderRadius: 10,
   },
 });

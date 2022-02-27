@@ -26,10 +26,10 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    height: "100%",
     borderRadius: 5,
     backgroundColor: "#161719",
     paddingHorizontal: 20,
+    paddingVertical: 5,
   },
   brand: {
     fontSize: 20,

@@ -13,7 +13,6 @@ export default function StoreLinkContainer() {
 
 const styles = StyleSheet.create({
   container: {
-    height: "8%",
     margin: 15,
     flexDirection: "row",
     justifyContent: "space-around",
