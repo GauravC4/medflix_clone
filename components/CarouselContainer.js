@@ -23,6 +23,7 @@ export default function CarouselContainer({ data }) {
         loop={true}
         autoplay={true}
         enableMomentum={false}
+        autoplayDelay={1000}
         autoplayInterval={2000}
       />
       <Pagination

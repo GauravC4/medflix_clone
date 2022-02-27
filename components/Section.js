@@ -1,4 +1,4 @@
-import { StyleSheet, View, Text, Dimensions } from "react-native";
+import { StyleSheet, View, Text } from "react-native";
 
 export default function Section(props) {
   return (
@@ -14,7 +14,7 @@ export default function Section(props) {
 const styles = StyleSheet.create({
   container: {
     marginHorizontal: 15,
-    marginVertical: "10%",
+    marginVertical: 20,
   },
   header: {
     fontSize: 28,

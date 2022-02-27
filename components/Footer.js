@@ -40,8 +40,8 @@ export default function Footer() {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#161719",
-    marginTop: 10,
-    padding: 15,
+    marginTop: "20%",
+    padding: 20,
     paddingBottom: 50,
   },
   footerTop: {

@@ -1,4 +1,11 @@
-import { StyleSheet, View, ScrollView, StatusBar, Image } from "react-native";
+import {
+  StyleSheet,
+  View,
+  ScrollView,
+  StatusBar,
+  Image,
+  Dimensions,
+} from "react-native";
 
 import Header from "./components/Header";
 import IntroCard from "./components/IntroCard";
@@ -44,7 +51,10 @@ export default function App() {
           title="An experience like no other"
           footerText="Get on stage with panelists, answer polls, express with emojis - Experience a whole new way of learning medicine"
         >
-          <Image source={require("./assets/eye_demo.png")} />
+          <Image
+            style={styles.demoImg}
+            source={require("./assets/eye_demo.png")}
+          />
         </Section>
         <Footer />
       </ScrollView>
